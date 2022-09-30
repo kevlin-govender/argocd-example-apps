@@ -1,0 +1,312 @@
+commit bd02dc8221d2ad40685d9d3f6db27ea8828e316c
+Author: Kevlin Govender <kevlin.govender@absa.africa>
+Date:   Fri Sep 30 19:19:19 2022 +0200
+
+    test
+
+commit 53e28ff20cc530b9ada2173fbbd64d48338583ba
+Author: May Zhang <may_zhang@intuit.com>
+Date:   Wed Mar 3 13:07:29 2021 -0800
+
+    feat: update helm samples to use helm3 (#78)
+    
+    * helm3 guestbook
+    
+    * helm3 blue-green
+    
+    * helm3 dependencies
+    
+    * helm3 plugin
+    
+    * helm3 plugin
+    
+    * helm3 plugin
+    
+    * helm3 apps
+    
+    * helm3 dependency
+    
+    * helm3 dependency
+    
+    * helm3 dependency
+    
+    * helm3 fix readme
+
+commit 466269de453b7b35c71589d229f542cc3e1cb45a
+Author: Ajay Kemparaj <ajaykemparaj@gmail.com>
+Date:   Wed Feb 10 10:41:07 2021 -0800
+
+    Move helm repo from  to (#75)
+    
+    more details here https://helm.sh/blog/new-location-stable-incubator-charts/
+    
+    Signed-off-by: ajayk <ajaykemparaj@gmail.com>
+
+commit 08f72e2a309beab929d9fd14626071b1a61a47f9
+Author: Alexander Matyushentsev <Alexander_Matyushentsev@intuit.com>
+Date:   Sun Jan 31 09:54:53 2021 -0800
+
+    chore: downgrade kustomize guestbook image tag (#73)
+    
+    Signed-off-by: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+
+commit 6bed858de32a0e876ec49dad1a2e3c5840d3fb07
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Thu Oct 17 15:33:32 2019 -0700
+
+    Updates examples to better reflect hook usage today (#41)
+
+commit 94ad32f4ea26798997774ffc3e20fbfa8e0d8c21
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Fri Oct 11 09:22:42 2019 -0700
+
+    Tidy up the examples repo + add a Helm hooks examples (#40)
+
+commit 5c2d89b897c4df42e06f94622f857dc4d7adc8f8
+Author: jannfis <jann@mistrust.net>
+Date:   Fri Sep 27 19:58:45 2019 +0200
+
+    Use apps/v1 API for Deployment resources (#38)
+
+commit b4ebe0049d2ad363760cd2624df36c3b0acaab0e
+Author: Alexander Matyushentsev <Alexander_Matyushentsev@intuit.com>
+Date:   Mon Aug 26 11:59:48 2019 -0700
+
+    Fix broken pre-post-sync example (#37)
+
+commit 1ccdee0a611224ccc6b9ff7919fe7002f905436e
+Author: Herrmann Hinz <tobias.hinz@gmail.com>
+Date:   Mon Aug 19 16:58:19 2019 +0200
+
+    doc-fix: update kasane readme (#36)
+    
+    pointing to the correct link for custom_tools.md
+
+commit 6150e82d927fd887f87b5d640514d0425e769027
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Wed Aug 14 14:44:15 2019 -0700
+
+    Clean-up (#35)
+
+commit 08836bd970037ebcd14494831de4635bad961139
+Author: Omer Kahani <OmerKahani@users.noreply.github.com>
+Date:   Thu Jun 13 20:43:03 2019 +0300
+
+    add application of applications example (#29)
+    
+    * add application of applications example
+    
+    * Add a link in the readme
+
+commit 454cc5296246da3f1bd251555a2e96ee7969aa41
+Author: Liviu Costea <email.lcostea@gmail.com>
+Date:   Thu Jun 13 04:06:34 2019 +0300
+
+    Add example for jsonnet using functions with top level arguments (#30)
+
+commit 0ad95c51bcefef6c1b42f7ebd64089e6ea13a8e7
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Wed Jun 5 09:22:02 2019 -0700
+
+    Sync wave (#28)
+
+commit 35ca7c333d593a6f56e3c9ec1a6facd19fd9f4a0
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Fri May 3 16:05:25 2019 -0700
+
+    Update README.md (#26)
+
+commit e8fe3804f856fb5f54084808dcf1fc8e8eeb4223
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Fri May 3 10:37:00 2019 -0700
+
+    Adds finalizers (#25)
+
+commit c77a1b2d151ff40637e2dd8ccc26f4234d605d91
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Mon Apr 29 09:46:47 2019 -0700
+
+    fix (#23)
+
+commit 36363233d00d67a7ab6b180053dc3322af9bc5c6
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Thu Apr 25 13:50:56 2019 -0700
+
+    Adds app-of-apps (#22)
+
+commit 90ff6843e25cc17d03c73afefb91b826cd816653
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Mon Apr 8 17:15:20 2019 -0700
+
+    Fix blue-gree example instructions (#21)
+
+commit 3f461c308f96bb219e5ffc0467acde4b6a812c13
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Wed Mar 27 08:41:56 2019 -0700
+
+    Add link to blue green sample app (#20)
+
+commit fd70f16a43d8f14626329a4f687bc8f8f689e9f6
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Tue Mar 26 10:53:15 2019 -0700
+
+    Add blue-green deployment example (#19)
+
+commit 826b3fa710e76b20ea16ff55228ed84ac4d996c7
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Mon Mar 11 08:47:04 2019 -0700
+
+    Fix init command in Helm + Kustomize example (#15)
+
+commit 3ef31aef9ce5d9d64bdd3139878a7ebc45473cde
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Thu Mar 7 11:19:13 2019 -0800
+
+    Removes blue-green-deploy. Removes kustomize1. Moves kustomize2-guestbook to kustomize-guestbook (#12)
+
+commit 23eeb0925ba967b73182c65802f7e19a7f3a5696
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Mon Feb 25 14:19:08 2019 -0800
+
+    Add config template plugin examples (#7)
+
+commit 179faabd63c682e0638fb14b2c69c4a9a47c31b3
+Author: Alex Collins <alexec@users.noreply.github.com>
+Date:   Fri Feb 15 14:43:39 2019 -0800
+
+    Adds example usage for Kustomize 2 (#6)
+
+commit 8a1cb4a02d3538e54907c827352f66f20c3d7b0d
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Thu Jan 17 13:08:16 2019 -0800
+
+    Update guestbook-ui-svc.yaml
+
+commit 1ff8a67040f482a9186f8d1f5221b5e908b9c27c
+Author: Nick Johnson <njohnson@limcollective.com>
+Date:   Thu Jan 3 22:44:26 2019 -0800
+
+    adding instructions to helm-dependency example about subchart conditions (#5)
+
+commit 58594acf362b1452349e2a15163d3357b9160663
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Sat Dec 29 17:21:57 2018 -0800
+
+    Add helm-dependency example demonstrating customization of OTS chart
+
+commit 8c06d232686113445d1ab064789fa0843afcdf0c
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Mon Dec 10 18:08:29 2018 -0800
+
+    Add back guestbook-ui-svc.yaml
+
+commit b0decab622473b6526a7025b2b52e2a6301dd83a
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Mon Dec 10 18:05:32 2018 -0800
+
+    Remove workflow example and limit revision history
+
+commit 382b85852fa33f13d4987424853c5206b9231ff0
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Sat Dec 8 03:51:53 2018 -0800
+
+    Update examples for Argo CD v0.11
+
+commit 62c453945b53e97e08f890dcd5aa382662e304c4
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Mon Dec 3 04:13:13 2018 -0800
+
+    Fix annotation for pre-post sync example
+
+commit d9c52b4c89474bf6f7c33694b7650e54b60944b4
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Tue Aug 14 16:22:13 2018 -0700
+
+    Add examples for a plain-YAML guestbook and kustomize guestbook
+
+commit c86a7fbb8e191c6e317526ac21db7a43f4c37688
+Merge: a3ea618 9c549b1
+Author: Alexander Matyushentsev <AMatyushentsev@gmail.com>
+Date:   Mon Sep 10 13:45:54 2018 -0700
+
+    Merge pull request #2 from alexmt/jsonnet
+    
+    Add jsonnet example
+
+commit 9c549b198c6d3044197941014d170320efe3195a
+Author: Alexander Matyushentsev <Alexander_Matyushentsev@intuit.com>
+Date:   Thu Sep 6 15:17:36 2018 -0700
+
+    Add jsonnet example
+
+commit a3ea618bb9d95efbaf901f4f491e26fd88e868c3
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Wed Jul 25 16:16:14 2018 -0700
+
+    Add a second values file in the helm-guestbook example
+
+commit 9421276024ccb8b07f0c7f68607b2e77fe16c0fa
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Wed Jul 25 14:52:39 2018 -0700
+
+    Add helm guestbook example
+
+commit 5eb3352b40ddc27e528eb7aa72542a0ff0d2e265
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Wed Jul 18 01:48:43 2018 -0700
+
+    Tweak timings of the pre-post-sync example
+
+commit e3a5ac20fc669aec1df512ce04e81c0a4789734b
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Tue Jul 17 23:08:13 2018 -0700
+
+    Add more environments to guestbook. Add README content
+
+commit e0c05b3b149093b22d1541f5f3974d4c4ae31284
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Wed Jul 11 18:57:51 2018 -0700
+
+    Update pre-post-sync app to v0.2
+
+commit 144fd97a0c705db1cb33c72b56a04055e24fa4f7
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Mon Jul 9 01:20:35 2018 -0700
+
+    Add Pre/PostSync job example
+
+commit 96a019c088db9e2eb7a5a05f5df08ee4e1c1c56a
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Fri Jul 6 12:54:20 2018 -0700
+
+    Update bg-guestbook app to v0.2
+
+commit b9eec94e6057656807153921f847bd32a15565ae
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Fri Jun 29 01:26:59 2018 -0700
+
+    Add blue green deployment example app
+
+commit 852d97d96eb78962978ff1a3baf1b75b34ebf15b
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Fri Jun 29 01:44:33 2018 -0700
+
+    Update to newer sock shop manifests
+
+commit 49723157a6cde9e03d01ebc8333f2ed6c94d474b
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Fri Jun 29 01:11:51 2018 -0700
+
+    Add sock shop app
+
+commit a296624b793784519e0997ff54bb024c39aabe15
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Thu Jun 21 00:08:40 2018 -0700
+
+    Update guestbook app to v0.2
+
+commit 67de934fd7f22062a4e2ac8b8d20cfc97f2b4e7f
+Author: Jesse Suen <Jesse_Suen@intuit.com>
+Date:   Thu Jun 21 00:03:27 2018 -0700
+
+    Add the guestbook example app (v0.1)
